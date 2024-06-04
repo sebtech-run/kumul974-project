@@ -1,4 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 .nav {
   height: 50px;
-  background-color: blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+@media screen and (max-width: 1024px) {
+  .nav {
+    gap: 10px;
+  }
+}
+.nav p {
+  letter-spacing: 2px;
+  font-family: "Montserrat", sans-serif;
 }/*# sourceMappingURL=nav.css.map */

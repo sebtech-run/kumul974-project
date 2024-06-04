@@ -1,5 +1,25 @@
-.nav {
-    height: 50px;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
-    background-color: blue;
+
+
+.nav {
+
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+    @media screen and (max-width: 1024px) {
+        gap: 10px;
+        
+    }
+    
+
+    p {
+        letter-spacing: 2px;
+        font-family: "Montserrat", sans-serif;
+        
+    }
+   
 }

@@ -1,1 +1,10 @@
-/*# sourceMappingURL=header.css.map */
+.header .logo {
+  display: flex;
+  height: 250px;
+  align-items: center;
+  justify-content: center;
+}
+.header .logo img {
+  height: 400px;
+  background-size: cover;
+}/*# sourceMappingURL=header.css.map */
