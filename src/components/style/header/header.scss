@@ -1,13 +1,19 @@
 .header {
     .logo {
         display: flex;
-        height: 250px;
+        height: 200px;
+        width: 350px;
         align-items: center;
+        margin: auto;
         justify-content: center;
         img {
-            height: 400px;
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+            
+
            
-            background-size: cover;
+            
 
            
         }
