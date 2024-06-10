@@ -1,1 +1,7 @@
-/*# sourceMappingURL=slider.css.map */
+.image-slider {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  width: 70%;
+  height: 100%;
+}/*# sourceMappingURL=slider.css.map */
